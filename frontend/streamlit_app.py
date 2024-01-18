@@ -4,7 +4,9 @@ import requests
 
 
 def get_similarity_score(text1, text2):
-    url = "http://backend:8000/text-similarity"
+    url = "http://0.0.0.0:8000/text-similarity" # if you want to run it on local
+    # Uncomment the following if running on docker and comment the above one
+    # url = "http://backend:8000/text-similarity"
     data = {"text1": text1, "text2": text2}
     response = requests.post(url, json=data)
 
