@@ -26,9 +26,9 @@ pip3 install -r backend/requirements.txt
 
 ```python3 backend/main.py```
 
-and in new terminal start frontend server using streamlt UI:
+**and in new terminal start frontend server using streamlt UI:
 
-```streamlit run frontend/streamlit_app.py```
+```streamlit run frontend/streamlit_app.py```**
 
 
 ### Input
@@ -47,7 +47,7 @@ The output of this can be seen here:
 {"similarity_score":0.9729417562484741}
 ```
 
-To test the whole application using frontend you can go to the link: 
+To test the whole application on local using frontend you can go to the link: 
 
 ```http://localhost:8501```
 
@@ -86,7 +86,7 @@ http://localhost:8501
 The deployed application is accessible here:
 
 ```
-http://54.164.28.252:8501/
+http://54.164.28.252:8501
 ```
 
 ## Solution Approach
