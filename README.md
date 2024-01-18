@@ -100,5 +100,5 @@ This code is designed to calculate the similarity score between two text texts, 
 
 - Compute Similarity Score: The code calculates the similarity score between the two sets of BERT embeddings using cosine similarity. The similarity score represents how closely related the resume and job description are in terms of content. It's a value between 0 and 1, with higher values indicating greater similarity.
 
-![img_1.png](img_1.png)
+![img_1.png](screenshots/img_1.png)
 
